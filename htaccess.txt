@@ -1,0 +1,2 @@
+# Enable rewrite engine and route requests to framework
+RewriteEngine On
