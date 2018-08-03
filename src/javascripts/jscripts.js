@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-import '../css/styles_montreal.css';
+const style = require('./css/styles_montreal.css');
 
 //<!-- H1_TYPEWRITER -->
 		
@@ -95,19 +95,3 @@ $(document).ready(function () {
   });
 
 module.exports = jscripts;
- /*When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
-        document.getElementById("topBtn").style.display = "block";
-    } else {
-        document.getElementById("topBtn").style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}*/

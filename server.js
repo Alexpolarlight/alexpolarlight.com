@@ -7,16 +7,13 @@ app.get('/',function(req,res){
     //__dirname : It will resolve to your project folder.
   });
 
-app.use(express.static(__dirname + '/src/css'));
+app.use(express.static('src'));
 //Store all JS and CSS in Scripts folder.
 
-app.use(express.static(__dirname + '/src/javascripts'));
-//Store all JS and CSS in Scripts folder.
-
-app.get('/',function(req,res){
-  res.sendFile('index.html');
-  //It will find and locate index.html from View or Scripts
+app.get('/javascripts/jscripts.js', function(req, res) { 
+  res.render('jscripts'); 
 });
+
 
 
 
