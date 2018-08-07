@@ -999,10 +999,13 @@ input, textarea{
 		background-color:  white;
 		}
 
-		
+		form{
+			margin: 0;
+			padding: 0;
+		}
 	
 		.contact_form input[type=name] {
-			width: 48%;
+			width: 47%;
 			margin: 1%;
 			padding: 15px;
 			height: 35px;
@@ -1010,7 +1013,7 @@ input, textarea{
 		}
 
 		.contact_form input[type=email] {
-			width: 48%;
+			width: 47%;
 			height: 35px;
 			margin: 1%;
 			padding: 15px;
@@ -1018,7 +1021,7 @@ input, textarea{
 		}
 
 		.contact_form input[name=subject] {
-			width: 98%;
+			width: 97%;
 		    height: 35px;
 			margin: 1%;
 			padding: 15px;
@@ -1026,7 +1029,7 @@ input, textarea{
 		}
 		
 		textarea {
-			width: 98%;
+			width: 97%;
 			height: 128px;
 			margin: 1%;
 			padding: 15px;

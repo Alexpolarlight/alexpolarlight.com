@@ -2,7 +2,7 @@
   "name": "alexpolarlight",
   "version": "1.0.0",
   "description": "Aleksandr Kulakov portfolio",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
@@ -10,7 +10,10 @@
   "author": "Aleksandr Kulakov",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^4.6.7"
   },
   "devDependencies": {
     "nodemon": "^1.18.3"
