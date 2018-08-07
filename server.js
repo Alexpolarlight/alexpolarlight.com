@@ -42,9 +42,9 @@ app.post('/send', (req, res) => {
         user: 'testpolarlight@gmail.com', 
         pass: '13Test12Polar11Light' 
     },
-    tls:{
-        rejectUnauthorized: false
-    }
+    // tls:{
+    //     rejectUnauthorized: false
+    // }
 });
 
 // setup email data with unicode symbols
