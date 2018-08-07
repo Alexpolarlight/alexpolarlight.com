@@ -507,6 +507,8 @@ input, textarea{
 	.title_button input[type=submit]:hover {
 			background-color: #17191e;
 			color: #ffdb00;
+			transition: background-color 2s ease-out;
+
 		}
 
 /*_______________________________SERVICES______________________________*/	
@@ -566,7 +568,8 @@ input, textarea{
 			}	
 			.services_button:hover {
 				    background-color: #ffdb00;
-				    color: #17191e;
+					color: #17191e;
+					transition: background-color 1s ease-out;
 				}
 
 
@@ -757,6 +760,7 @@ input, textarea{
 
 	.portfolio_works_button:hover {
 				background-color: #ffdb00;
+				transition: background-color 1s ease-out;
 	}
 	
 	[class*="work_"] img{
@@ -1051,6 +1055,7 @@ input, textarea{
 		
 		.contact_form input[type=submit]:hover {
 			background-color: #ffdb00;
+			transition: background-color 1s ease-out;
 		}
 
 /*_______________________________CONTACTS______________________________*/
