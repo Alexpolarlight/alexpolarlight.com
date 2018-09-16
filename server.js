@@ -21,6 +21,9 @@ app.get('/', (req, res) => {
   res.render('contact');
 })
 
+app.get('')
+
+
 app.post('/send', (req, res) => {
   const output = `
     <h2>You have a new contact request</h2>
@@ -68,6 +71,6 @@ transporter.sendMail(mailOptions, (error, info) => {
 });
 })
 
-app.listen(80);
+app.listen(3000);
 
 console.log("Running at Port 80");

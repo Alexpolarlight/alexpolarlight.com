@@ -5,8 +5,7 @@ body {
 	width:100%;
 	padding: 0;
 	background-position: 50% 0%;
-	background-size: 100%;
-	
+	background-size: 100%;	
 }
 
 * {
@@ -756,6 +755,10 @@ input, textarea{
 			border: 2px solid #ffffff;
 			outline: none;
 		}
+
+		.portfolio_works_button a {
+			text-decoration: none;
+		}
 	
 
 	.portfolio_works_button:hover {
@@ -1084,7 +1087,6 @@ input, textarea{
 	justify-content: space-between;
 	align-items: center;
 }
-			
 			.contacts_logo_square {
 				width: 57px;
 				height: 57px;
