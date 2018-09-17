@@ -73,4 +73,4 @@ transporter.sendMail(mailOptions, (error, info) => {
 
 app.listen(80);
 
-console.log("Running at Port 80");
+console.log("Running at Port 80...");
